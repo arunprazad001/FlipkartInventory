@@ -1,0 +1,148 @@
+/* Add this CSS to your existing stylesheet */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+.category-nav{
+    background-color: yellow;
+    
+}
+
+.container {
+   
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    background-color: #2874f0;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+.category-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.category-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.category-nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.category-nav ul li a:hover {
+    color: #2874f0;
+}
+
+#content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+form input, form select, form button {
+    margin-top: 5px;
+}
+
+button {
+    background-color: #2874f0;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #135abc;
+}
+
+.product-table {
+    margin-bottom: 40px;
+}
+
+.product-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.product-table th {
+    background-color: #2874f0;
+    color: #fff;
+}
+
+.product-table tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+.product-table tbody tr:hover {
+    background-color: #ddd;
+}
+
+.product-table td:last-child {
+    text-align: center;
+}
+
+.product-table td:last-child button {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.product-table td:last-child button:hover {
+    background-color: #d32f2f;
+}
+
+#product-tables {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-table {
+    width: 30%;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+.product-table:last-child {
+    margin-right: 0;
+}

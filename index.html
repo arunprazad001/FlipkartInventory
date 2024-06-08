@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Inventory</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color:yellow;">
+    <nav>
+        <div class="container">
+            <h1 style="color: black;">WELCOME</h1>
+            <h1 style="color: black;">Flipkart Inventory</h1>
+        </div>
+    </nav>
+
+    <div style="background-color:yellow;" class="container">
+        <div class="category-nav">
+            <ul>
+                <li style="font-weight: bold;"><a href="trousers.html" data-category="trousers">Trousers</a></li>
+                <li style="font-weight: bold;"><a href="shoes.html" data-category="shoes">Shoes</a></li>
+                <li style="font-weight: bold;"><a href="tshirts.html" data-category="tshirts">T-Shirts</a></li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <form id="product-form">
+                <label style="font-weight: bold;" for="category">Category:</label>
+                <select style="font-weight: bold;" id="category" required>
+                    <option value="trousers">Trousers</option>
+                    <option value="shoes">Shoes</option>
+                    <option value="tshirts">T-Shirts</option>
+                </select>
+                <label style="font-weight: bold;" for="product-name">Product Name:</label>
+                <input  type="text" id="product-name" required>
+                <button style="font-weight: bold; color: black;" type="submit">Add Product</button>
+            </form>
+            <div style="font-weight: bold;" id="message" class="message"></div>
+            <div id="product-tables"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
